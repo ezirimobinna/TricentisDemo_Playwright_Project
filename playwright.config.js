@@ -16,8 +16,8 @@ export default defineConfig({
 
   use: {
     baseURL: 'https://demowebshop.tricentis.com/',
-    headless: false,
-    headed: true,
+    headless: true,
+    headed: false,
     trace: 'on-first-retry'
   },
 
