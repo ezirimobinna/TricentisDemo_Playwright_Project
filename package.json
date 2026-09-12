@@ -1,0 +1,22 @@
+{
+  "name": "Tricentis-demo-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "all-tests": "npx playwright test",
+    "registration": "npx playwright test tests/registration.spec.js",
+    "login-test": "npx playwright test tests/login.spec.js",
+    "listing": "npx playwright test tests/listing.spec.js",
+    "checkout": "npx playwright test tests/checkout.spec.js",
+    "e2e": "npx playwright test tests/e2e/e2e.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0"
+  }
+}
